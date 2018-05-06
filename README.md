@@ -16,7 +16,7 @@ docker pull alibo/shadowrocket
 
 ```bash
 docker run -d --restart=always \
-  -e "SSR_PORT=4001" \
+  -e "SSR_PORT=443" \
   -e "SSR_PASSWORD=12345678" \
   -e "SSR_METHOD=chacha20-ietf" \
   -e "SSR_OBFS=http_post_compatible" \
