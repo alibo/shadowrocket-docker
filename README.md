@@ -8,7 +8,7 @@ A Docker image for [ShadowsocksR (ShadowRocket, SSR)](https://github.com/shadows
 ## Download from Docker Hub
 
 ```bash
-docker pull alibo/shadowrocket
+docker pull alibo/shadowrocket-docker
 ```
 
 
@@ -22,7 +22,7 @@ docker run -d --restart=always \
   -e "SSR_OBFS=http_post_compatible" \
   -p 443:443 \
   -p 443:443/udp \
-  alibo/shadowrocket
+  alibo/shadowrocket-docker
 ```
 
 More information about options: https://github.com/shadowsocksr-rm/shadowsocks-rss/blob/master/ssr.md
