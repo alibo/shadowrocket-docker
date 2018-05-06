@@ -1,4 +1,7 @@
 # shadowrocket-docker
+
+[![Docker Build Status](https://img.shields.io/docker/build/alibo/shadowrocket-docker.svg)](https://hub.docker.com/r/alibo/shadowrocket-docker/)
+
 A Docker image for [ShadowsocksR (ShadowRocket, SSR)](https://github.com/shadowsocksrr/shadowsocksr)
 
 
